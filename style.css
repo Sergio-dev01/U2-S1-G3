@@ -1,0 +1,125 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+p {
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+header {
+  background-color: #ffffff;
+  padding: 20px;
+  text-align: center;
+  border-radius: 20px;
+}
+.navbar {
+  background-color: #fef7e2;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+header h2 {
+  margin: 0;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+.header-button,
+.shop-button {
+  text-align: center;
+  vertical-align: middle;
+  background-color: #ffdf7f;
+  border-radius: 20px;
+  display: inline-block;
+  padding: 8px;
+  width: 16%;
+}
+.shop-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  border-radius: 30px;
+  padding: 10px;
+}
+.shop-button img {
+  max-height: 30px;
+}
+.shop-button h2 {
+  margin: 0;
+}
+
+.container {
+  padding: 20px;
+}
+.container h1 {
+  color: #742305;
+  margin: 0;
+  margin-bottom: 30px;
+}
+.container-cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.card {
+  width: 250px;
+  height: auto;
+  border-radius: 20px;
+  background-color: #fef7e2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.img-card {
+  width: 100%;
+  overflow: hidden;
+}
+.img-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 20px 20px 0 0;
+}
+.description {
+  text-align: left;
+  padding: 10px;
+  flex-grow: 1;
+}
+.description h6 {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.description p {
+  margin: 5px 0;
+  color: #777;
+}
+
+.price {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+  text-align: right;
+  margin: 10px 20px;
+}
+
+.card-button {
+  width: 150px;
+  margin: auto;
+  padding: 10px;
+  background-color: #ffdf7f;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  color: #fff;
+}
